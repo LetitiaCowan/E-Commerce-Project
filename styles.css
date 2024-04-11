@@ -190,15 +190,16 @@ header {
   height: calc(100vh - 80px);
 }
 
-.header__container {
-  width: 100%;
-  max-width: 720px;
-  margin: 0 auto;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
+  .header__container {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 80px;
+  }
 
 .header__description {
   display: flex;
@@ -242,6 +243,7 @@ HIGHLIGHTS
 #highlights {
   position: relative;
   max-width: 100vw;
+  margin-top: 80px;
 }
 
 #highlights:after,
